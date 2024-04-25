@@ -58,5 +58,5 @@ The most significant variables associated with gout diagnosis were serum uric ac
 
 ## Calculator Link
 
-[Click here to access the Gout Prediction Calculator](https://github.com/yourusername/yourrepository/main.py)
+[Click here to access the Gout Prediction Calculator](https://aiinrheumatology.com/)
 
