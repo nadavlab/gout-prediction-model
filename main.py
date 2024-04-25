@@ -2,9 +2,10 @@ import argparse
 import pandas as pd
 import joblib
 import xgboost as xgb
-
+import warnings
+warnings.filterwarnings('ignore')
 def get_patient_data(age, su, hyperlipidemia, nsaid, diuretic):
-    scaler = joblib.load('scaler_cv_0.pkl')
+    scaler = joblib.load('./scaler_cv_0.pkl')
     df = pd.DataFrame(columns=scaler.feature_names_in_)
     age_loc = df.columns.get_loc('Age')
     su_loc = df.columns.get_loc('UA_II')
@@ -41,7 +42,7 @@ def main():
     args = parser.parse_args()
 
     patient_data = get_patient_data(args.age, args.ua, args.hyperlipidemia, args.nsaid, args.diuretic)
-    model = load_model('json_xgboost_save_model.json')
+    model = load_model('./json_xgboost_save_model.json')
     preds = make_prediction(model, patient_data)
     preds = preds * 100
     preds = "{:.2f}%".format(preds[0])
