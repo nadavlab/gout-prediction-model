@@ -4,11 +4,27 @@ This program predicts the probability of a patient developing gout based on thei
 
 ## Research Overview
 
-This prediction model is based on the research article titled "A machine learning-based prediction model for gout in hyperuricemics – a nationwide cohort study" by Shay Brikman et al. The study presents a machine learning model for predicting gout diagnosis among hyperuricemic patients using demographic characteristics, clinical diagnoses, medication prescriptions, and laboratory results.
+This prediction model is based on the research article titled "A machine learning-based prediction model for gout in hyperuricemics – a nationwide cohort study" by Shay Brikman et al. The study presents a machine learning model for predicting gout diagnosis among hyperuricemic patients using demographic characteristics, clinical diagnoses, medication prescriptions, and laboratory results. The research contains both full and compact models. This repository presents the compact model.
+
+## Authors
+- Shay Brikman MD, 1 2
+- Liel Serfaty, 3
+- Ran Abuhasira MD, PhD, 4 5 6
+- Naomi Schlesinger MD, 7
+- Amir Bieber MD, MA, 1
+- Nadav Rappoport PhD, 3
+1 Rheumatic Diseases Unit, Emek Medical Center, Afula, Israel.
+2 Rappaport Faculty of Medicine, Technion, Haifa, Israel.
+3 Department of Software and Information Systems Engineering, Ben-Gurion University of the Negev, Be'er Sheva, Israel 
+4 Clinical Research Center, Soroka University Medical Center, Be'er Sheva, Israel.
+5 Faculty of Health Sciences, Ben-Gurion University of the Negev, Be'er Sheva, Israel.
+6 Department of Internal Medicine B, Rabin Medical Center, Beilinson Campus, Petah Tikva, Israel.
+7 Division of Rheumatology, Department of Medicine, Spencer Fox Eccles School of Medicine, University of Utah, Salt Lake City, UT, USA.
+
 
 ## Libraries Required
 
-- Python 3.x
+- Python==3.x
 - pandas
 - joblib==1.4.0
 - xgboost
