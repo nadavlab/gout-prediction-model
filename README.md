@@ -4,7 +4,17 @@ This program predicts the probability of a patient developing gout based on thei
 
 ## Research Overview
 
-This prediction model is based on the research article titled "A machine learning-based prediction model for gout in hyperuricemics – a nationwide cohort study" by Shay Brikman et al. The study presents a machine learning model for predicting gout diagnosis among hyperuricemic patients using demographic characteristics, clinical diagnoses, medication prescriptions, and laboratory results. The research contains both full and compact models. This repository presents the compact model.
+This prediction model is based on the research article titled "A machine learning-based prediction model for gout in hyperuricemics – a nationwide cohort study" by Shay Brikman et al. A retrospective nationwide Israeli cohort study used the Clalit Health Insurance database of 473,124 individuals to identify adults 18 years or older with at least two serum urate measurements exceeding 6.8 mg/dL between January 2007 and December 2022Patients with a prior gout diagnosis or on gout medications were excluded.
+
+Patients' demographic characteristics, community and hospital diagnoses, routine medication prescriptions, and laboratory results were used to train a risk prediction model. 
+
+A machine learning model, XGBoost, was developed to predict the risk of gout. Feature selection methods were used to identify relevant variables. The model's performance was evaluated using the receiver operating characteristic area under the curve (ROC AUC) and precision-recall AUC.
+
+The primary outcome was the diagnosis of gout among hyperuricemic patients. 
+
+Among the 301,385 participants with hyperuricemia included in the analysis, 15,055 (5%) were diagnosed with gout. The XGBoost model had a ROC-AUC of 0.781 (95% CI 0.78-0.784) and precision-recall AUC of 0.208 (95% CI 0.195-0.22). 
+The most significant variables associated with gout diagnosis were serum uric acid levels, age, hyperlipidemia, non-steroidal anti-inflammatory drugs, and diuretic purchases. A compact model using only these five variables yielded a ROC-AUC of 0.714 (95% CI 0.706-0.723) and a negative predictive value (NPV) of 95%.
+
 
 ## Authors
 - Shay Brikman MD, 1 2
