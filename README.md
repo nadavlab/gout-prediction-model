@@ -13,13 +13,13 @@ This prediction model is based on the research article titled "A machine learnin
 - Naomi Schlesinger MD, 7
 - Amir Bieber MD, MA, 1
 - Nadav Rappoport PhD, 3
-1 Rheumatic Diseases Unit, Emek Medical Center, Afula, Israel.
-2 Rappaport Faculty of Medicine, Technion, Haifa, Israel.
-3 Department of Software and Information Systems Engineering, Ben-Gurion University of the Negev, Be'er Sheva, Israel 
-4 Clinical Research Center, Soroka University Medical Center, Be'er Sheva, Israel.
-5 Faculty of Health Sciences, Ben-Gurion University of the Negev, Be'er Sheva, Israel.
-6 Department of Internal Medicine B, Rabin Medical Center, Beilinson Campus, Petah Tikva, Israel.
-7 Division of Rheumatology, Department of Medicine, Spencer Fox Eccles School of Medicine, University of Utah, Salt Lake City, UT, USA.
+1. Rheumatic Diseases Unit, Emek Medical Center, Afula, Israel.
+2. Rappaport Faculty of Medicine, Technion, Haifa, Israel.
+3. Department of Software and Information Systems Engineering, Ben-Gurion University of the Negev, Be'er Sheva, Israel 
+4. Clinical Research Center, Soroka University Medical Center, Be'er Sheva, Israel.
+5. Faculty of Health Sciences, Ben-Gurion University of the Negev, Be'er Sheva, Israel.
+6. Department of Internal Medicine B, Rabin Medical Center, Beilinson Campus, Petah Tikva, Israel.
+7. Division of Rheumatology, Department of Medicine, Spencer Fox Eccles School of Medicine, University of Utah, Salt Lake City, UT, USA.
 
 
 ## Libraries Required
