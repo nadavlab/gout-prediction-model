@@ -10,7 +10,7 @@ This prediction model is based on the research article titled "A machine learnin
 
 - Python 3.x
 - pandas
-- joblib
+- joblib==1.4.0
 - xgboost
 
 ## How to Run
